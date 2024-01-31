@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin: 10px 30px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 2.5fr 2fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.fa-message{
+    background-color: green;
+    padding: 5px;
+    color: white;
+    border-radius: 
+    5px;
+}
+#list>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#list>ul>li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0 10px;
+    
+}
+#list>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+.reusable-button{
+    background-color: green;
+    color: white;
+    padding: 5px 8px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.p_container{
+    background-color: antiquewhite;
+}
+.potential{
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.left_potential{
+    margin: 100px ;
+}
+.left_potential_title{
+    font-size: 20px;
+    color: azure;
+}
+.left_potential_header{
+    font-size: 70px;
+}
+.left_potential_body{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.right_potential{
+    margin: 50px 50px 0 0;
+}
+.reusable-image{
+    
+    height: 600px;
+    width: 500px;
+}
+.particular{
+    display: grid;
+    grid-template-columns: 
+     1fr 1fr;
+     align-items: center;
+}
+.particular_heading{
+    font-size: 35px;
+    font-weight: 700;
+}
+.particular_body{
+    font-size: 20px;
+    margin: 20px 60px;
+}
+.coaching{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px 50px 50px ;
+}
+.c_container{
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.c_heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.fa-chalkboard{
+    font-size: 40px;
+    
+    
+}
+.c_container_text{
+    font-size: 20px;
+}
+.b_box{
+    background-color: antiquewhite;
+}
+.box_container{
+    margin: 0 50px;
+    
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.reuseable {
+    border: 1px solid #ccc;
+    padding: 20px;
+    
+    text-align: center;
+}
+
+.reuseable p {
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.reuseable img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.reuseable .fa-star {
+    color: gold;
+}
+.stay{
+    display: flex;
+    justify-content: center;
+    margin: 20px 30%;
+}
+.stay >h1{
+    font-size: 50px;
+}
+
+#yourNewID {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+#yourNewID > div {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+#yourNewID img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.blogs{
+    margin: 20px 0 ;
+    display: flex;
+    justify-content: center;
+}
+
+.notified{
+    margin: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.input{
+    
+    height: 35px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+}
